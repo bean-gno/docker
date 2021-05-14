@@ -19,6 +19,7 @@ For portforwarding, choose a leftover port and forward it to port 8888.
 docker run -it --name (name) \
     --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 \   #gpu use
     -v /home/ubuntu/psun:/home/ubuntu \   #Volume mount
+    -v (sample ml-data)
     -p 9000:8888 \   #portforwarding
     (image name)
     
