@@ -1,4 +1,4 @@
-### A docker and jupyter notebook set-up example in ubuntu 18.04
+*A docker and jupyter notebook set-up example in ubuntu 18.04*
 
 ---
 ## 1. Creating a Docker
