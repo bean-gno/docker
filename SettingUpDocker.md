@@ -14,14 +14,14 @@ Then, mount your directory and mldata dir when running the docker.
 For portforwarding, choose a leftover port and forward it to port 8888.
 
 ```bash
-#Creating docker instance for aimd-r2
+#Creating docker instance for
 
 docker run -it --name (name) \
     --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 \   #gpu use
     -v /home/ubuntu/psun:/home/ubuntu \   #Volume mount
     -p 9000:8888 \   #portforwarding
-    semiconnetworks/sns:aimd-r2
-
+    (image name)
+    
 #after launching docker, install tmux
 
 apt update -y && apt install -y sudo git tmux
@@ -63,7 +63,6 @@ cat ~/.ssh/id_rsa.pub
 ```
 Copy every word and  register it on your git account.
 
-To run aimd-r2, you need to have *dnn* and *tfserver* installed. You can find them at https://pypi.org/. Go to the homepage and copy git address.
 
 To clone git, use
 ```bash
