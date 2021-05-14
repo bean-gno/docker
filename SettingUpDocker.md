@@ -49,7 +49,7 @@ You can launch tmux to work on the termial while running jupyter.
 
 
 ------
-## 3. Git Cloning
+## 3. Git Cloning 
 ---
 
 You need to have ssh token authentification to clone git.
